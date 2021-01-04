@@ -1,2 +1,36 @@
-* README
-[[./output/PythonDaylightTool.mov]]
+* Daylight Analysis
+
+Usage:
+
+- run =main.py=
+
+- Choose a space for analysis. Not all spaces have windows. 
+
+- Choose the other parameters you are asked about.
+
+- Results will be shown in the terminal. Plot will appear if chosen.
+
+Ops!
+
+- You have to have all honeybee packages installed. 
+  [[https://github.com/ladybug-tools/lbt-honeybee][GitHub - ladybug-tools/lbt-honeybee: 🐝 🐝 🐝 Collection of all Honeybee Python libraries]]
+  
+  #+begin_src sh
+  pip install lbt-honeybee[cli]
+  #+end_src
+
+- You have to have ladybug packages installed.
+  [[https://github.com/ladybug-tools/lbt-ladybug)[GitHub - ladybug-tools/lbt-ladybug: Collection of all Ladybug core Python libraries]]
+  
+  #+begin_src sh
+  pip install lbt-ladybug
+  #+end_src 
+
+- You have to have Radiance installed.
+  [[https://github.com/NREL/Radiance/releases][Releases · NREL/Radiance · GitHub]]
+
+- The script also uses =xlxswriter=, =numpy=, =matplotlib=. 
+
+- =main.py= imports from =LightingAnalysis/daylight_analysis_load_IFC_data.py= so do not move that file.
+
+- A demo video is in the output folder.
