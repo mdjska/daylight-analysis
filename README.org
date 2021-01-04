@@ -20,7 +20,7 @@ Ops!
   #+end_src
 
 - You have to have ladybug packages installed.
-  [[https://github.com/ladybug-tools/lbt-ladybug)[GitHub - ladybug-tools/lbt-ladybug: Collection of all Ladybug core Python libraries]]
+  [[https://github.com/ladybug-tools/lbt-ladybug][GitHub - ladybug-tools/lbt-ladybug: Collection of all Ladybug core Python libraries]]
   
   #+begin_src sh
   pip install lbt-ladybug
